@@ -5,6 +5,12 @@ public class OperacionesAritmeticas
 {
     private double numero1;
     private double numero2;
+    private double resultado;
+
+    public OperacionesAritmeticas()
+    {
+
+    }
 
     public OperacionesAritmeticas(double numero1, double numero2)
     {
@@ -30,5 +36,15 @@ public class OperacionesAritmeticas
     public void setNumero2(double numero2)
     {
         this.numero2 = numero2;
+    }
+
+    public double getResultado()
+    {
+        return resultado;
+    }
+
+    public void setResultado(double resultado)
+    {
+        this.resultado = resultado;
     }
 }

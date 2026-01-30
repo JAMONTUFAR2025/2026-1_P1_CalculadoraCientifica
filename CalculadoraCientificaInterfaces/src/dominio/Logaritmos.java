@@ -4,6 +4,12 @@ package dominio;
 public class Logaritmos
 {
     private double numero;
+    private double resultado;
+
+    public Logaritmos()
+    {
+
+    }
 
     public Logaritmos(double numero)
     {
@@ -18,5 +24,15 @@ public class Logaritmos
     public void setNumero(double numero)
     {
         this.numero = numero;
+    }
+
+    public double getResultado()
+    {
+        return resultado;
+    }
+
+    public void setResultado(double resultado)
+    {
+        this.resultado = resultado;
     }
 }

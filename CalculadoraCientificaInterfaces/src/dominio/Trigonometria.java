@@ -4,6 +4,12 @@ package dominio;
 public class Trigonometria
 {
     private double angulo;
+    private double resultado;
+
+    public Trigonometria()
+    {
+
+    }
 
     public Trigonometria(double angulo)
     {
@@ -18,5 +24,15 @@ public class Trigonometria
     public void setAngulo(double angulo)
     {
         this.angulo = angulo;
+    }
+
+    public double getResultado()
+    {
+        return resultado;
+    }
+
+    public void setResultado(double resultado)
+    {
+        this.resultado = resultado;
     }
 }
